@@ -8,9 +8,9 @@ import {
 
 function Footer() {
     return (
-        <footer className="bg-slate-950 text-white px-60 pt-12 pb-6">
+        <footer className="bg-slate-950 text-white px-4 sm:px-6 md:px-10 lg:px-20 xl:px-60 pt-12 pb-6">
 
-            <div className="flex justify-between">
+            <div className="flex flex-col md:flex-row gap-8 md:justify-between">
 
                 {/* Logo + Description */}
                 <div className="w-80">

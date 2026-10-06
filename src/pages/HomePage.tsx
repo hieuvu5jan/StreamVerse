@@ -57,7 +57,7 @@ function HomePage() {
     }
   }
   return (
-    <main className="bg-slate-900 min-h-screen text-white px-60 pb-16">
+    <main className="bg-slate-900 min-h-screen text-white px-4 sm:px-6 md:px-10 lg:px-20 xl:px-60 pb-16  ">
       <section className="relative pt-10">
         <img
           src={hero.image}

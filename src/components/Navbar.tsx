@@ -2,7 +2,7 @@ import { FaPlay, FaSearch, FaBell } from "react-icons/fa";
 
 function Navbar() {
   return (
-    <nav className="bg-slate-950 text-white h-16 px-30 flex items-center justify-between ">
+    <nav className="bg-slate-950 text-white h-16 px-4 sm:px-6 md:px-10 lg:px-20 xl:px-60 flex items-center justify-between ">
       <div className="flex items-center gap-30">
         <div className="flex items-center gap-4"><FaPlay className="text-sky-500 text-xl" />
           <span className="cursor-pointer text-xl font-bold">

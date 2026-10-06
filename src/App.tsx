@@ -1,17 +1,34 @@
+import { Routes, Route } from "react-router-dom";
+
+import LandingPage from "./pages/LandingPage";
 import HomePage from "./pages/HomePage";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
-      <Navbar />
+    <Routes>
 
+      {/* Landing Page */}
+      <Route
+        path="/"
+        element={<LandingPage />}
+      />
 
-      <HomePage />
+      {/* Home Page */}
+      <Route
+        path="/home"
+        element={
+          <>
+            <Navbar />
+            <HomePage />
+            <Footer />
+          </>
+        }
+      />
 
-      <Footer />
-    </ >
-  )
+    </Routes>
+  );
 }
-export default App
+
+export default App;
